@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadies Exam </title>
+</head>
+<body>
+
+    <h1 align="center">Examinee Details </h1>
+
+
+    <form action="" method="get">
+
+        <Div id="FirstName" name="Name">
+            <Label for="FirstName">
+                First Name : 
+            </Label>
+            <Input type="text" id="FirstName" name="Name" placeholder="Enter your first name" maxlength="30" minlength="1" required autofocus></Input>
+        </Div> <br/>
+        <Div id="LastName" name="Name">
+            <Label for="LastName">
+                Last Name : 
+            </Label>
+            <Input type="text" id="LastName" name="Name" placeholder="Enter your Last name" maxlength="30" minlength="1"></Input>
+        </Div><br/>
+        <Div id="email" name="Email">
+            <Label for="email">
+                Email :  
+            </Label>
+            <Input type="text" id="LastName" name="Name"  ></Input>
+        </Div><br/>
+        <Div id="password" name="password">
+            <Label for="password">
+                Password :  
+            </Label>
+            <Input type="password" id="LastName" name="Name" ></Input>
+        </Div><br/>
+        <Div id="dob" name="dob">
+            <Label for="dob">
+                DOB :  
+            </Label>
+            <Input type="date" id="dob" name="dob" ></Input>
+        </Div><br/>
+        <div id="genderField" name="genderField" >
+            <fieldset>
+              <legend>Gender</legend>
+              <input type="radio" name="gender" id="male" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label>
+              <input type="radio" name="gender" id="other" value="other" />
+            </fieldset>
+        </div><br/>
+
+        <div id="state" name="state">
+             <babel for="state" id="state">Country</babel>
+             <select id="state" name="state">
+             <Option>TamilNadu</Option>
+             <Option>Kerala</Option>
+             <Option selected>Puducherry</Option>
+             <Option>gujrat</Option> </select>   
+        </div><br/>
+
+        <div id="pincode" name="pincode">
+            <label for="pincode" >Pincode :</label>
+             <input type="number" name="pincode" id="pincode" minvalue="100000" maxvalue="999999"/>
+        </div><br/>
+
+        <div id="examdate" name="examdate">
+            <label for="examdate" >ExamDate :</label>
+            <input type="text" id="examdate" name="examdate" value="2/27/2022" readonly/>
+        </div><br/>
+
+        <div id="exam_Time" name="exam_Time">
+            <label for="examTime" >ExamDate :</label>
+            <input type="time" id="examtime" name="examtime" value="examdate" />
+        </div><br/>
+
+        <div id="Terms_condition" name="Terms_condition">
+            <fieldset>
+                <legend>Terms and conditions</legend>
+            
+            <input type="checkbox" id="terms" name="terms" value="examdate" />
+            <label for="Terms" id="Terms">I have read the terms and conditions</label>
+        </div><br/>
+
+
+        <div id="submit_Reset">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="reset" />
+          </div>
+    </form>
+
+     
+</body>
+</html>
